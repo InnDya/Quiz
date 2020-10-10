@@ -1,0 +1,49 @@
+h1 {
+    text-align: center;
+    padding: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: relative;
+    background-color: lightgray;
+}
+
+#section1 {
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+    margin-top: 50px;
+}
+
+form {
+    display: block;
+}
+
+#questionBox {
+    text-align: left;
+    font-size: 24px;
+    padding: 30px;
+    position: relative;
+}
+
+ul#answers {
+    font-size: 18px;
+    display: block;
+    position: relative;
+    margin: 0;
+    list-style: none;
+}
+
+button {
+    margin-top: 25px;
+    margin-left: 20px;
+    position: relative;
+    display: block;
+}
+
+#image {
+    text-align: center;
+    position: relative;
+    padding-top: 100px;
+    opacity: 0.15;
+}
+  
