@@ -1,4 +1,7 @@
 class Quiz {
+    // In class I have 4 properties (fields - egenskaper): currentQuestion, score and questionArr
+    // Constructor receives function showCurrentQuestion as parameter (callback) because fetch() is asynchronous and we must wait
+    // to get all data and then we call showCurrentQuestion()
     constructor(showCurrentQuestion) {
         this.currentQuestion = 0;
         this.score = 0;
@@ -9,7 +12,7 @@ class Quiz {
                 this.questionsArr = data;
                 showCurrentQuestion();
             })
-            .catch(error => { 
+            .catch(error => {
                 console.log(error);
             });
     }

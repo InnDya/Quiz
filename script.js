@@ -1,9 +1,6 @@
-let quiz;
-
-document.addEventListener("DOMContentLoaded", function (event) {
-    document.getElementById("btnNext").addEventListener("click", onClickNext);
-    quiz = new Quiz(showCurrentQuestion);
-})
+document.getElementById("btnNext").addEventListener("click", onClickNext);
+// create object of class Quiz with showCurrentQuestion as argument
+let quiz = new Quiz(showCurrentQuestion);
 
 function onClickNext(e) {
     quiz.checkAnswer();
